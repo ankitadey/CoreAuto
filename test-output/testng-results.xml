@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T13:11:43 IST" name="Suite" finished-at="2021-09-24T13:15:25 IST" duration-ms="221534">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T13:11:43 IST" name="OTOAPPOne" finished-at="2021-09-24T13:15:25 IST" duration-ms="221534">
+      <class name="oto.DashboardTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:11:43 IST" name="setUpSuite" finished-at="2021-09-24T13:11:43 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="Execution()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:11:43 IST" name="Execution" finished-at="2021-09-24T13:12:23 IST" duration-ms="40049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execution -->
+        <test-method signature="verifyLoanClick()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:12:23 IST" name="verifyLoanClick" finished-at="2021-09-24T13:12:33 IST" duration-ms="9756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanClick -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:12:33 IST" name="tearDownMethod" finished-at="2021-09-24T13:12:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoanClick status=SUCCESS method=DashboardTest.verifyLoanClick()[pri:0, instance:oto.DashboardTest@576d5deb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="verifySubmitApplicationclick()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:12:33 IST" name="verifySubmitApplicationclick" finished-at="2021-09-24T13:12:38 IST" duration-ms="5254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmitApplicationclick -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:12:38 IST" name="tearDownMethod" finished-at="2021-09-24T13:12:38 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubmitApplicationclick status=SUCCESS method=DashboardTest.verifySubmitApplicationclick()[pri:0, instance:oto.DashboardTest@576d5deb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:15:24 IST" name="tearDown" finished-at="2021-09-24T13:15:25 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="EndSuite()[pri:0, instance:oto.DashboardTest@576d5deb]" started-at="2021-09-24T13:15:25 IST" name="EndSuite" finished-at="2021-09-24T13:15:25 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSuite -->
+      </class> <!-- oto.DashboardTest -->
+      <class name="oto.MAFTest">
+        <test-method signature="verifyFirstStockClick()[pri:1, instance:oto.MAFTest@6221a451]" started-at="2021-09-24T13:12:38 IST" name="verifyFirstStockClick" finished-at="2021-09-24T13:12:38 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstStockClick -->
+        <test-method signature="verifyCNAFClick()[pri:2, instance:oto.MAFTest@6221a451]" started-at="2021-09-24T13:12:38 IST" name="verifyCNAFClick" finished-at="2021-09-24T13:12:49 IST" duration-ms="10562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCNAFClick -->
+        <test-method signature="addMAFFormBasicDetails()[pri:3, instance:oto.MAFTest@6221a451]" started-at="2021-09-24T13:12:49 IST" name="addMAFFormBasicDetails" finished-at="2021-09-24T13:14:09 IST" duration-ms="80011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMAFFormBasicDetails -->
+        <test-method signature="addMAFCustDetails()[pri:4, instance:oto.MAFTest@6221a451]" started-at="2021-09-24T13:14:09 IST" name="addMAFCustDetails" finished-at="2021-09-24T13:15:24 IST" duration-ms="75016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMAFCustDetails -->
+      </class> <!-- oto.MAFTest -->
+    </test> <!-- OTOAPPOne -->
+  </suite> <!-- Suite -->
+</testng-results>
